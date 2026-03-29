@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NationalParks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:noNamespaceSchemaLocation="https://baoblank25.github.io/cse445_a4/NationalParks.xsd">
+<NationalParks
+  xmlns="https://baoblank25.github.io/cse445_a4"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://baoblank25.github.io/cse445_a4 https://baoblank25.github.io/cse445_a4/NationalParks.xsd">
 
   <NationalPark Rating="4.9">
     <Name>Grand Canyon</Name>
@@ -86,7 +88,7 @@
       <Street>Visitor Center Road</Street>
       <City>Bar Harbor</City>
       <State>ME</State>
-      <Zip>04609</Zip>
+      <Zip>4609</Zip>
     </Address>
   </NationalPark>
 
