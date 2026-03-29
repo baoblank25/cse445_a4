@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- ERROR 1: Root element is NationalPark instead of NationalParks -->
-<NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:noNamespaceSchemaLocation="NationalParks.xsd">
+<NationalPark
+  xmlns="https://baoblank25.github.io/cse445_a4"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://baoblank25.github.io/cse445_a4 https://baoblank25.github.io/cse445_a4/NationalParks.xsd">
 
   <NationalPark Rating="4.9">
     <Name>Grand Canyon</Name>
@@ -17,7 +19,7 @@
     </Address>
   </NationalPark>
 
-  <!-- ERROR 2: Required attribute NearestAirport is missing from Address -->
+  <!-- ERROR 2: Required attribute NearestAirport is missing -->
   <NationalPark Rating="4.8">
     <Name>Yellowstone</Name>
     <Phone>307-344-7381</Phone>
@@ -54,7 +56,7 @@
       <Zip>95389</Zip>
   </NationalPark>
 
-  <!-- ERROR 5: Two Name elements for one park -->
+  <!-- ERROR 5: Two Name elements -->
   <NationalPark>
     <Name>Rocky Mountain</Name>
     <Name>Rocky Mountain National Park</Name>
